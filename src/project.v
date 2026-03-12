@@ -5,7 +5,8 @@
 
 `default_nettype none
 
-module tt_um_algofoogle_vga_matrix_dac (
+module tt_um_jay13ch_vga_matrix_dac(
+//module tt_um_algofoogle_vga_matrix_dac (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
