@@ -1,5 +1,5 @@
 #NOTE: PROJECT_NAME can also be a subcell name, and in the case of LVS it is the LAYOUT name:
-PROJECT_NAME ?=tt_um_algofoogle_vga_matrix_dac
+PROJECT_NAME ?= tt_um_algofoogle_vga_matrix_dac
 
 #NOTE: SCHEMATIC_NAME is only used in LVS, and can be overridden to compare a given layout with a specific schematic SPICE subcircuit:
 SCHEMATIC_NAME ?= $(PROJECT_NAME)
@@ -82,7 +82,3 @@ update_gds:
 
 clean:
 	rm -f lvs.report *.lvs.spice *.nodes
-
-
-
-
