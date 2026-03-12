@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
   title:        "Analog VGA CSDAC experiments"
-  author:       "Jay13ch"
-  discord:      "Jay13ch"
+  author:       "algofoogle (Anton Maurovic)"
+  discord:      "algofoogle"
   description:  "Current switching matrix DAC implementations for analog VGA displays"
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     25_175_000
