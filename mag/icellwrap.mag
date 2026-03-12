@@ -1,0 +1,148 @@
+magic
+tech sky130A
+timestamp 1757954071
+<< metal1 >>
+rect 100 212 118 243
+rect 89 207 115 212
+rect 89 177 115 181
+rect 173 167 217 243
+rect 60 158 99 163
+rect 60 127 65 158
+rect 94 127 99 158
+rect 60 122 99 127
+rect 173 126 178 167
+rect 212 126 217 167
+rect 324 169 363 174
+rect 324 138 329 169
+rect 358 138 363 169
+rect 324 133 363 138
+rect 0 72 39 77
+rect 0 41 5 72
+rect 34 41 39 72
+rect 0 36 39 41
+rect 100 -20 118 104
+rect 173 0 217 126
+rect 260 43 299 48
+rect 260 12 265 43
+rect 294 12 299 43
+rect 260 7 299 12
+rect 89 -25 115 -20
+rect 89 -55 115 -51
+<< via1 >>
+rect 89 181 115 207
+rect 65 127 94 158
+rect 178 126 212 167
+rect 329 138 358 169
+rect 5 41 34 72
+rect 265 12 294 43
+rect 89 -51 115 -25
+<< metal2 >>
+rect 86 207 119 208
+rect 86 202 89 207
+rect 0 188 89 202
+rect 86 181 89 188
+rect 115 202 119 207
+rect 115 188 393 202
+rect 115 181 119 188
+rect 86 180 119 181
+rect 173 167 217 172
+rect 60 158 99 163
+rect 60 127 65 158
+rect 94 127 99 158
+rect 60 122 99 127
+rect 173 126 178 167
+rect 212 126 217 167
+rect 173 121 217 126
+rect 324 169 363 174
+rect 324 138 329 169
+rect 358 138 363 169
+rect 324 107 363 138
+rect 0 91 393 107
+rect 0 72 393 77
+rect 0 41 5 72
+rect 34 63 393 72
+rect 34 41 39 63
+rect 0 36 39 41
+rect 260 43 299 48
+rect 260 12 265 43
+rect 294 12 299 43
+rect 260 7 299 12
+rect 86 -25 119 -24
+rect 86 -30 89 -25
+rect 0 -44 89 -30
+rect 86 -51 89 -44
+rect 115 -30 119 -25
+rect 115 -44 393 -30
+rect 115 -51 119 -44
+rect 86 -52 119 -51
+<< via2 >>
+rect 65 127 94 158
+rect 178 126 212 167
+rect 329 138 358 169
+rect 5 41 34 72
+rect 265 12 294 43
+<< metal3 >>
+rect 0 77 30 243
+rect 69 163 99 243
+rect 60 158 99 163
+rect 60 127 65 158
+rect 94 127 99 158
+rect 60 122 99 127
+rect 0 72 39 77
+rect 0 41 5 72
+rect 34 41 39 72
+rect 0 36 39 41
+rect 0 0 30 36
+rect 69 0 99 122
+rect 173 167 217 243
+rect 173 126 178 167
+rect 212 126 217 167
+rect 173 0 217 126
+rect 260 49 290 243
+rect 333 174 363 243
+rect 324 169 363 174
+rect 324 138 329 169
+rect 358 138 363 169
+rect 324 133 363 138
+rect 260 44 302 49
+rect 260 12 265 44
+rect 297 12 302 44
+rect 260 7 302 12
+rect 260 0 290 7
+rect 333 0 363 133
+<< via3 >>
+rect 178 126 212 167
+rect 265 43 297 44
+rect 265 12 294 43
+rect 294 12 297 43
+<< metal4 >>
+rect 0 167 393 172
+rect 0 126 178 167
+rect 212 126 393 167
+rect 0 121 393 126
+rect 0 44 393 48
+rect 0 12 265 44
+rect 297 12 393 44
+rect 0 7 393 12
+use icell  icell
+timestamp 1757954071
+transform 1 0 0 0 1 0
+box 0 -4 393 243
+<< labels >>
+flabel metal3 0 220 30 232 0 FreeSans 40 0 0 0 VPWR
+port 1 nsew
+flabel metal3 69 220 99 232 0 FreeSans 40 0 0 0 Cn
+port 2 nsew
+flabel metal3 173 220 217 232 0 FreeSans 40 0 0 0 VGND
+port 3 nsew
+flabel metal3 260 220 290 232 0 FreeSans 40 0 0 0 Iout
+port 4 nsew
+flabel metal3 333 220 363 232 0 FreeSans 40 0 0 0 Vbias
+port 5 nsew
+flabel metal1 100 0 118 18 0 FreeSans 40 0 0 0 Sn
+port 7 nsew
+flabel metal2 0 188 14 202 0 FreeSans 40 0 0 0 Rn
+port 6 nsew
+<< properties >>
+string FIXED_BBOX 0 0 393 232
+<< end >>
